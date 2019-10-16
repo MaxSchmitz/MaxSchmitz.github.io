@@ -37,14 +37,24 @@ Remove previous keys
 The -R option removes all keys belonging to hostname from a known_hosts file.  This option is useful to delete hashed hosts if this isn't your first time setting up a pi.
 
 Login with defaults
+
 `ssh pi@raspberrypi.local`
 
 Change password
+
 `sudo raspi-config`
 
 
 Copy over public key
+
 `ssh-copy-id pi@raspberry.local`
+
+Update packages
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 
 
