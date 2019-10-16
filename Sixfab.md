@@ -1,6 +1,6 @@
-#Connect to Internet with SixFab App Shield
+# Connect to Internet with SixFab App Shield
 
-##Software setup
+## Software setup
 `sudo apt-get install raspberrypi-kernel-headers`
 
 `ls /usr/src`
@@ -84,7 +84,7 @@ Now check to make sure internet connection works
 
 Hopefully everything is working by this point.
 
-##Now we can add Auto connect
+## Now we can add Auto connect
 
 `cd ~`
 

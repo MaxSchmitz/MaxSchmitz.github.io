@@ -10,7 +10,7 @@ enable ssh on the pi
 
 `touch /Volumes/boot/ssh`
 
-Get your your current network information from Keychain Access
+Get your your current network information from Keychain Access then copy info to wpa_supplicant.conf
 
 `subl /Volumes/boot/wpa_supplicant.conf`
 
@@ -30,7 +30,7 @@ If ejecting the disk complains `cd ~` then eject
 
 Ready to boot up raspberry pi
 
-Remove previous keys
+Remove previous keys if this isn't the first RPi being set up
 
 `ssh-keygen -R raspberrypi.local`
 
